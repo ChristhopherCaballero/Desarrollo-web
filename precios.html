@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Precios de la revolucion!</title>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
+		<link rel="stylesheet"  href="css/envie.css"> <!-- esto es lo que conecta mi html con css -->
+	</head>
+
+	<header id="header" class="header  background" >
+		<div class="contenedor">
+			<figure class="logotipo"> <!-- logotipo -->
+				<img src="images/invie.png" width="186" height="60" alt="logotipo">
+			</figure>
+			<nav class="menu">	<!-- menu -->
+				<ul> <!-- lista desordenada -->
+					<li> <!-- elementos de la lista -->
+						<a href="index.html">Home</a> <!-- enlaces -->
+					</li>
+					<li>
+						<a href="precios.html">Precios</a>
+					</li>
+					<li>
+						<a href="index.html#guitarras">Guitarras</a>
+					</li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<section class="tabla">
+			<div class="contenedor">
+			<table> <!-- vaina pa crear tabla -->
+				<thead>  <!-- header de la tabla -->
+					<tr> <!-- haci hacemos una fila -->
+						<th> <!-- celda completa -->
+							Modelo
+						</th>
+						<th>Precio</th>
+						<th>Descripcion</th>
+					</tr>
+				</thead>
+
+				<tbody> <!-- cuerpo de la tabla -->
+					<tr>
+						<td>El padre Clasico </td><!-- otro tipo de celda  -->
+						<td>1000 cabezas e`ganado </td>
+						<td>algo clasico para tocar algo clasico pago con un precio clasico </td>
+					</tr>
+					<tr>
+						<td>La madre Acustica </td><!-- otro tipo de celda  -->
+						<td>99999 Donalds </td>
+						<td> guitarra del imperio... suena bien... pero sigue siendo del imperio!</td>
+					</tr>
+					<tr>
+						<td>La Confiable </td><!-- otro tipo de celda  -->
+						<td>traer el mejor chiguire de la sabana </td>
+						<td>guitarra firmada por el mismisimo comandante </td>
+					</tr>
+				</tbody>
+
+
+			</table>
+			</div>
+
+		</section>
+
+
+		<footer class="footer">
+	<div class="contenedor">
+			<div class="contacto">
+				<img src="images/invieblanco.png" alt="logoblanco">
+				<a href="tel:+58555-5rriente"><strong>Telefono</strong> <span>555-5rriente</span></a>
+				<a href="mailto:PatriaSocialismo@vnzcom"><strong>E-mail</strong><span>
+				PatriaSocialismo@vnzcom</span></a>
+			</div>
+	
+		<form class="formulario">
+			<div class="col1">
+			<label for="nombre">Nombre</label>
+				<input type="text" required id="nombre" name="nombre" placeholder="Hugo Chavez Frias">
+			<label for="email">E-mail</label>
+				<input type="email" required id= "email" name="correo" placeholder="Elcomandante@gmail.com">
+		
+			<div class="sexo">
+				<label for="mujer"><!-- ese id  y for nos permite aumentar la camodidad del usuario tactil-->
+					<input type="radio" id="mujer" name="sexo" value="Mujer"> Mujer <!-- con name es uno o es el otro -->
+				</label>
+
+				<label for="hombre">
+				<input type="radio" id="hombre"  name="sexo" value="Hombre" > Hombre      <!-- el value le va a enviar el backend la info -->
+				</label>
+
+				<label for="compatriota">
+					<input type="radio"  checked id="compatriota"  name="sexo" value="compatriota"> Compatriota! 
+				</label>
+			</div>
+			
+<!-- los radio son para seleccion singular y checkbox es para la multiple -->
+			<div class="intereses">
+				<label for="pedido">
+					<input type="checkbox"  checked id="pedido" name="intereses" value="compra"> Compra 
+				</label>
+				<label for="queja">
+					<input type="checkbox" id="queja" name="intereses" value="queja"> Le llego otra vaina!?
+				</label>
+				<label for="comentario">
+					<input type="checkbox" id="comentario" name="intereses" value="opinion"> Opinion Bolivarina
+				</label>
+				<label for="otro">
+					<input type="checkbox" id="otro" name="intereses" value="otro"> Otro
+				</label>
+		</div>
+		</div>
+		<div class="col2">
+			<label for="comentarios">Asunto del dilema</label>
+			<textarea id="comentarios" name="comentarios" cols="30" rows="7" placeholder="algo corto vale..."></textarea>
+			<input type="submit" name="" value="Manda esa vaina!" class="botonaso">
+		</div>
+		
+		</form>
+	</div>
+</footer>
+	<body>
+		
+	</body>
+
+</html>

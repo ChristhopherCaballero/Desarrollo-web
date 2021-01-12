@@ -1,0 +1,272 @@
+
+body {
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+}
+table{
+	width: 100%; /*le da el ancho de su papa */
+	font-family: 'Roboto Slab', serif;
+	margin: 50px 0;
+
+}
+th{
+	background: red;
+	color: white;
+	text-align: left;
+
+}
+table,th,td{
+	border: 1px solid red;
+	border-collapse: collapse; /*se unen las tablas border*/
+}
+th,td{
+	padding: 20px
+}
+input , textarea{
+	outline: 0; /*que no salga un cuadrito cuando le haces focus*/
+}
+
+input:focus, textarea:focus{
+	background: lightgrey; 
+}
+
+.background{
+	background-image: url('../images/background.jpg');
+	background-size: cover; /*la imagen se expande bello*/
+	
+}
+.contenedor{ /*creamos contenedor pa metelo a todo el centrado*/
+	width: 800px;
+	margin: auto; /*esta verga lo centra*/
+	position: relative;
+}
+
+.guitarra img{
+	float: right;
+	position: relative;
+	top: 20px;
+}
+.guitarra2 img{
+	float: left;
+	position: relative;
+	right: 30px;
+	top: 10px;
+
+}
+.guitarra li{
+	margin-left: 50px;
+}
+
+.guitarra2 li{
+	margin-left: 250px;
+
+}
+.guitarra{
+	overflow: hidden;
+	border: 1px solid red;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 20px 50px 60px 7px;
+}
+.guitarra2{
+	overflow: hidden;
+	border: 1px solid red;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 20px 50px 60px 7px;
+}
+.guitarras{
+	color: red;
+	padding-left: 20px;
+	
+
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Redressed', cursive;
+	margin-left: 270px;
+}
+
+
+.titulo{
+	font-size: 70px;
+	font-family: 'Redressed', cursive;
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+
+.title-a{
+
+	font-size: 24px;
+	margin-top: 5px;
+	margin-bottom: 200px;
+}
+
+.title-b{
+
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-top: 0;
+	font-size: 40px;
+	font-family: 'Hanalei Fill', cursive;
+}
+.title-c{ /*el padre clasico*/
+	
+    margin-bottom: 20px;
+    margin-left: 220px;
+    margin-right: 0;
+    margin-top: 0;
+    font-size: 40px;
+	font-family: 'Hachi Maru Pop', cursive;
+}
+
+
+
+
+.portada{
+	
+	color: red;
+	padding-left: 20px;
+	height: 500px;
+
+}
+
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+	position: relative;
+	left: 90px;
+	bottom: 14px;
+	
+	
+
+}
+
+
+.menu a{
+	color: #FF0404;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+
+
+}
+.menu a:before{
+	content: "⨀ ";
+
+
+}
+
+.logotipo {
+	display: inline-block;
+	margin-left: 0;
+}
+
+
+
+
+
+.botonaso{
+	border-radius: 10px;
+	background: red;
+	color: white;
+	padding: 5px; /*margen interior*/ 
+	margin-bottom: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+	background: linear-gradient(to left,#fe344e ,#E60000); /*degradado sexy*/
+	cursor: pointer; /*para que salga la manita*/
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+
+}
+.col2 .botonaso{
+	margin-top: 10px;
+}
+
+
+.footer{
+	background: red;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	height: 280px;
+
+
+}
+.contacto{
+	display: flex;
+	width: 250px;
+	flex-wrap: wrap; /*con esto podemos hacer que los elementos bajen y ya que chocan con el ancho*/
+
+	margin-top: 20px;
+
+
+}
+.contacto img{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contacto strong{
+	display: block;
+	 
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 1px;
+	align-items: center;
+	height: 10px;
+}
+.footer .contenedor{
+	display: flex; 
+	justify-content: space-between;
+
+}
+.formulario{
+	display: flex;
+	width: 500px;
+}
+
+.col1 ,.col2{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+.col1{
+	margin-right: 15px;
+	
+}
+.col2{
+	align-items: flex-start;
+}
+.col1 label{
+	margin-top: 5px;
+}
+
+.col2 label{
+	margin-top: 5px;
+}
+.intereses label{
+	font-size: 12px;
+	margin-right: 15px;
+}
+
+
+.formulario label, .sexo,.intereses{
+	margin-bottom: 12px;
+
+}
+.sexo{
+	margin-top: 10px;
+	margin-right: 80px;
+
+}
+
